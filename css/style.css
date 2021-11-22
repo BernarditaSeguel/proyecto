@@ -570,7 +570,7 @@ a{
         }
         
         .img-card-gallery-blog img{
-            width: 300px;
+            width: 90%;
             margin-left: auto;
             margin-right: auto;
             text-align: justify;
@@ -578,10 +578,11 @@ a{
         }
         
         .text-card-gallery-blog{
-            width: 300px;
-            text-align: justify;
+            flex-direction: column;
+            justify-content: start;
             margin-left: auto;
             margin-right: auto;
+            padding: 10px 12px;
         }
         
         .text-card-gallery-blog h2{    
@@ -953,7 +954,7 @@ a{
 }
 
 .img-card-gallery-blog img{
-    width: 600px;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
@@ -961,10 +962,11 @@ a{
 }
 
 .text-card-gallery-blog{
-    width: 600px;
-	text-align: justify;
-	margin-left: auto;
-	margin-right: auto;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 12px;
 }
 
 .text-card-gallery-blog h2{    
@@ -1339,7 +1341,7 @@ a{
     }
     
     .img-card-gallery-blog img{
-        width: 500px;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
         text-align: justify;
@@ -1347,10 +1349,11 @@ a{
     }
     
     .text-card-gallery-blog{
-        width: 500px;
-        text-align: justify;
+        flex-direction: column;
+        justify-content: start;
         margin-left: auto;
         margin-right: auto;
+        padding: 10px 12px;
     }
     
     .text-card-gallery-blog h2{    
@@ -1780,7 +1783,7 @@ a{
     }
     
     .img-card-gallery-blog img{
-        width: 300px;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
         text-align: justify;
@@ -1788,10 +1791,11 @@ a{
     }
     
     .text-card-gallery-blog{
-        width: 300px;
-        text-align: justify;
+        flex-direction: column;
+        justify-content: start;
         margin-left: auto;
         margin-right: auto;
+        padding: 10px 12px;
     }
     
     .text-card-gallery-blog h2{    
@@ -2162,7 +2166,7 @@ a{
             }
             
             .img-card-gallery-blog img{
-                width: 200px;
+                width: 90%;
                 margin-left: auto;
                 margin-right: auto;
                 text-align: justify;
@@ -2170,10 +2174,11 @@ a{
             }
             
             .text-card-gallery-blog{
-                width: 200px;
-                text-align: justify;
+                flex-direction: column;
+                justify-content: start;
                 margin-left: auto;
                 margin-right: auto;
+                padding: 10px 12px;
             }
             
             .text-card-gallery-blog h2{    
@@ -2721,7 +2726,7 @@ a{
             }
             
             .img-card-gallery-blog img{
-                width: 200px;
+                width: 90%;
                 margin-left: auto;
                 margin-right: auto;
                 text-align: justify;
@@ -2729,10 +2734,11 @@ a{
             }
             
             .text-card-gallery-blog{
-                width: 200px;
-                text-align: justify;
+                flex-direction: column;
+                justify-content: start;
                 margin-left: auto;
                 margin-right: auto;
+                padding: 10px 12px;
             }
             
             .text-card-gallery-blog h2{    
@@ -3114,7 +3120,7 @@ a{
                 }
                 
                 .img-card-gallery-blog img{
-                    width: 200px;
+                    width: 90%;
                     margin-left: auto;
                     margin-right: auto;
                     text-align: justify;
@@ -3122,10 +3128,11 @@ a{
                 }
                 
                 .text-card-gallery-blog{
-                    width: 200px;
-                    text-align: justify;
+                    flex-direction: column;
+                    justify-content: start;
                     margin-left: auto;
                     margin-right: auto;
+                    padding: 10px 12px;
                 }
                 
                 .text-card-gallery-blog h2{    
@@ -3496,7 +3503,7 @@ a{
             }
             
             .img-card-gallery-blog img{
-                width: 300px;
+                width: 90%;
                 margin-left: auto;
                 margin-right: auto;
                 text-align: justify;
@@ -3504,10 +3511,11 @@ a{
             }
             
             .text-card-gallery-blog{
-                width: 300px;
-                text-align: justify;
+                flex-direction: column;
+                justify-content: start;
                 margin-left: auto;
                 margin-right: auto;
+                padding: 10px 12px;
             }
             
             .text-card-gallery-blog h2{    
@@ -3925,7 +3933,7 @@ a{
             }
             
             .img-card-gallery-blog img{
-                width: 250px;
+                width: 90%;
                 margin-left: auto;
                 margin-right: auto;
                 text-align: justify;
@@ -3933,10 +3941,11 @@ a{
             }
             
             .text-card-gallery-blog{
-                width: 250px;
-                text-align: justify;
+                flex-direction: column;
+                justify-content: start;
                 margin-left: auto;
                 margin-right: auto;
+                padding: 10px 12px;
             }
             
             .text-card-gallery-blog h2{    
@@ -4367,7 +4376,7 @@ a{
             }
             
             .img-card-gallery-blog img{
-                width: 150px;
+                width: 90%;
                 margin-left: auto;
                 margin-right: auto;
                 text-align: justify;
@@ -4375,10 +4384,11 @@ a{
             }
             
             .text-card-gallery-blog{
-                width: 150px;
-                text-align: justify;
+                flex-direction: column;
+                justify-content: start;
                 margin-left: auto;
                 margin-right: auto;
+                padding: 10px 12px;
             }
             
             .text-card-gallery-blog h2{    
@@ -4707,7 +4717,7 @@ a{
             
             .container-information{
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 justify-content: space-between;
                 margin-left: auto;
                 margin-right: auto;
@@ -4726,21 +4736,21 @@ a{
             .text-information h2{
                 font-size: 0.8rem;
                 font-weight: 550;
-                text-align: start;
+                text-align: center;
                 text-transform: uppercase;
             }
                 
             .text-information h3{
                 font-size: 0.8rem;
                 font-weight: 400;
-                text-align: start;
+                text-align: center;
                 text-transform: uppercase;
             }
                 
             .text-information p{
                 font-size: 0.6rem;
                 font-weight: 200;
-                text-align: justify;
+                text-align: center;
             }
                 
             .text-information a {
@@ -4812,7 +4822,7 @@ a{
             }
             
             .img-card-gallery-blog img{
-                width: 280px;
+                width: 90%;
                 margin-left: auto;
                 margin-right: auto;
                 text-align: justify;
@@ -4820,10 +4830,11 @@ a{
             }
             
             .text-card-gallery-blog{
-                width: 280px;
-                text-align: justify;
+                flex-direction: column;
+                justify-content: start;
                 margin-left: auto;
                 margin-right: auto;
+                padding: 10px 12px;
             }
             
             .text-card-gallery-blog h2{    
@@ -5256,7 +5267,7 @@ a{
                 }
                 
                 .img-card-gallery-blog img{
-                    width: 230px;
+                    width: 90%;
                     margin-left: auto;
                     margin-right: auto;
                     text-align: justify;
@@ -5264,10 +5275,11 @@ a{
                 }
                 
                 .text-card-gallery-blog{
-                    width: 230px;
-                    text-align: justify;
+                    flex-direction: column;
+                    justify-content: start;
                     margin-left: auto;
                     margin-right: auto;
+                    padding: 10px 12px;
                 }
                 
                 .text-card-gallery-blog h2{    
@@ -5703,7 +5715,7 @@ a{
                 }
                 
                 .img-card-gallery-blog img{
-                    width: 200px;
+                    width: 90%;
                     margin-left: auto;
                     margin-right: auto;
                     text-align: justify;
@@ -5711,10 +5723,11 @@ a{
                 }
                 
                 .text-card-gallery-blog{
-                    width: 200px;
-                    text-align: justify;
+                    flex-direction: column;
+                    justify-content: start;
                     margin-left: auto;
                     margin-right: auto;
+                    padding: 10px 12px;
                 }
                 
                 .text-card-gallery-blog h2{    
