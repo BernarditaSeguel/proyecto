@@ -54,10 +54,41 @@
  		if(menu.classList.contains("active")){
  			toggleMenu();
  		}
-
  	}
+
+	 if(this.innerWidth >728){
+		if(menu.classList.contains("active")){
+			toggleMenu();
+		}
+	}
+
+	if(this.innerWidth >425){
+		if(menu.classList.contains("active")){
+			toggleMenu();
+		}
+	}
+
+	 if(this.innerWidth >375){
+		if(menu.classList.contains("active")){
+			toggleMenu();
+		}
+	}
+
+	if(this.innerWidth >320){
+		if(menu.classList.contains("active")){
+			toggleMenu();
+		}
+	}
+
+	if(this.innerWidth >227){
+		if(menu.classList.contains("active")){
+			toggleMenu();
+		}
+	}
  }
 
+
+ 
 
 
  
@@ -81,7 +112,7 @@
       
    })
 
-   // create circle indicators
+
     function circleIndicator(){
         for(let i=0; i< slides.length; i++){
         	const div=document.createElement("div");
@@ -152,7 +183,6 @@
 
 
 
-
   	if ('WebSocket' in window) {
 		(function () {
 			function refreshCSS() {
@@ -167,6 +197,7 @@
 						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
 						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
 					}
+
 					parent.appendChild(elem);
 				}
 			}
