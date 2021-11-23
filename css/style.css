@@ -939,6 +939,91 @@ a{
     margin-bottom: 20px;
 }
 
+/*giftcard*/
+.giftcard{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.giftcard h2{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 550;
+    letter-spacing: 0.1rem;
+    color: #000;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.box-giftcard{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 88%;
+}
+
+.img-giftcard{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    padding-right: 40px ;
+}
+.information-giftcard{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.information-giftcard h3{
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+}
+
+.information-giftcard h4{
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+}
+
+.information-giftcard h5{
+    font-size: 0.75rem;
+    font-weight: 200;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+}
+
+.information-giftcard p{
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 0.5rem;
+}
+
+.information-giftcard a{
+    margin-top: 0.8rem;
+}
+
+.instructions p{
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 0.2rem;
+}
 /*newsletter*/
 .footer{
     margin-top: 40px;
@@ -4806,6 +4891,95 @@ a{
                 border: 0.5px solid #000;
             }
 
+                           /*giftcard*/
+.giftcard{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.giftcard h2{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 550;
+    letter-spacing: 0.1rem;
+    color: #000;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.box-giftcard{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    width: 88%;
+}
+
+.img-giftcard{
+    display: inline-block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.information-giftcard{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.information-giftcard h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+}
+
+.information-giftcard h4{
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+}
+
+.information-giftcard h5{
+    font-size: 0.75rem;
+    font-weight: 200;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+.information-giftcard p{
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 0.5rem;
+    text-align: justify;
+}
+
+.information-giftcard a{
+    margin-top: 0.8rem;
+}
+
+.instructions p{
+    font-size: 0.75rem;
+    font-weight: 200;
+    margin-top: 0.2rem;
+    text-align: justify;
+}
+
+
     /*newsletter*/
     .footer{
         margin-top: 40px;
@@ -5322,6 +5496,94 @@ a{
                 border: 0.5px solid #000;
             }
 
+               /*giftcard*/
+               .giftcard{
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .giftcard h2{
+                text-align: center;
+                font-size: 1.4rem;
+                font-weight: 550;
+                letter-spacing: 0.1rem;
+                color: #000;
+                margin-bottom: 40px;
+                margin-top: 40px;
+            }
+            
+            .box-giftcard{
+                display: flex;
+                flex-direction: column;
+                margin-left: auto;
+                margin-right: auto;
+                align-items: center;
+                justify-content: center;
+                width: 88%;
+            }
+            
+            .img-giftcard{
+                display: inline-block;
+                align-items: center;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+                padding-left: 30px;
+            }
+            
+            .information-giftcard{
+                display: flex;
+                flex-direction: column;
+                margin-left: auto;
+                margin-right: auto;
+                align-items: flex-start;
+                justify-content: space-between;
+                width: 80%;
+            }
+            
+            .information-giftcard h3{
+                font-size: 1.4rem;
+                font-weight: 600;
+                letter-spacing: 0.2rem;
+                margin-top: 0.5rem;
+                text-transform: uppercase;
+            }
+            
+            .information-giftcard h4{
+                font-size: 1rem;
+                font-weight: 200;
+                letter-spacing: 0.2rem;
+                margin-top: 0.5rem;
+                text-transform: uppercase;
+            }
+            
+            .information-giftcard h5{
+                font-size: 0.75rem;
+                font-weight: 200;
+                letter-spacing: 0.2rem;
+                margin-top: 0.5rem;
+                text-align: justify;
+                text-transform: uppercase;
+            }
+            
+            .information-giftcard p{
+                font-size: 1rem;
+                font-weight: 200;
+                margin-top: 0.5rem;
+                text-align: justify;
+            }
+            
+            .information-giftcard a{
+                margin-top: 0.8rem;
+            }
+            
+            .instructions p{
+                font-size: 0.75rem;
+                font-weight: 200;
+                margin-top: 0.2rem;
+                text-align: justify;
+            }
+
     /*newsletter*/
     .footer{
         margin-top: 40px;
@@ -5725,6 +5987,94 @@ a{
                     text-align: start;
                 } 
 
+               /*giftcard*/
+.giftcard{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.giftcard h2{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 550;
+    letter-spacing: 0.1rem;
+    color: #000;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.box-giftcard{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    width: 88%;
+}
+
+.img-giftcard{
+    display: inline-block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.information-giftcard{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.information-giftcard h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+}
+
+.information-giftcard h4{
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+}
+
+.information-giftcard h5{
+    font-size: 0.75rem;
+    font-weight: 200;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+.information-giftcard p{
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 0.5rem;
+    text-align: justify;
+}
+
+.information-giftcard a{
+    margin-top: 0.8rem;
+}
+
+.instructions p{
+    font-size: 0.75rem;
+    font-weight: 200;
+    margin-top: 0.2rem;
+    text-align: justify;
+}
+                
 /*newsletter*/
 .footer{
     margin-top: 40px;
