@@ -56,14 +56,14 @@ a {
 }
 
 .verde {
-    color: #fff;
-    background-color: #507435;
-}
-
-.verde:hover {
     color: #507435;
     border: 1.5px solid #507435;
     background-color: transparent;
+}
+
+.verde:hover {
+    color: #fff;
+    background-color: #507435;
 }
 
 .negro {
@@ -250,7 +250,7 @@ a {
 .header .menu>ul>li .sub-menu>ul>li>a:hover,
 .header .item-right a:hover,
 .header .menu>ul>li:hover>a {
-    color: #c4b0ff;
+    color: #507435;
 }
 
 .mobile-menu-head,
@@ -270,7 +270,7 @@ a {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    background-color: #000;
+    background-color: #507435;
     height: 2rem;
 }
 
@@ -314,7 +314,7 @@ a {
 }
 
 .box-informativo:hover {
-    background-color: #333333;
+    background-color: #7EA360;
 }
 
 
@@ -1344,7 +1344,6 @@ a {
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        background-color: #000;
         height: 2rem;
     }
     .icon-item-informativo {
@@ -1380,9 +1379,6 @@ a {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-    }
-    .box-informativo:hover {
-        background-color: #333333;
     }
     /*information*/
     .information-shop {
@@ -1796,7 +1792,6 @@ a {
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        background-color: #000;
         height: 2rem;
     }
     .icon-item-informativo {
@@ -1832,9 +1827,6 @@ a {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-    }
-    .box-informativo:hover {
-        background-color: #333333;
     }
     /*information*/
     .information-shop {
@@ -2249,7 +2241,6 @@ a {
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        background-color: #000;
         height: 2rem;
     }
     .icon-item-informativo {
@@ -2286,9 +2277,6 @@ a {
         margin-left: auto;
         margin-right: auto;
     }
-    .box-informativo:hover {
-        background-color: #333333;
-    }
     /*text-informativo*/
     .box-informativo {
         display: flex;
@@ -2299,7 +2287,6 @@ a {
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        background-color: #000;
         height: 2rem;
     }
     .icon-item-informativo {
@@ -2335,9 +2322,6 @@ a {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-    }
-    .box-informativo:hover {
-        background-color: #333333;
     }
     /*information*/
     .information-shop {
@@ -2752,7 +2736,6 @@ a {
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        background-color: #000;
         height: 2rem;
     }
     .icon-item-informativo {
@@ -2788,9 +2771,6 @@ a {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-    }
-    .box-informativo:hover {
-        background-color: #333333;
     }
     /*information*/
     .information-shop {
@@ -3868,7 +3848,6 @@ a {
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        background-color: #000;
         height: 2rem;
     }
     .icon-item-informativo {
@@ -3904,9 +3883,6 @@ a {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-    }
-    .box-informativo:hover {
-        background-color: #333333;
     }
     /*information*/
     .information-shop {
@@ -4332,7 +4308,6 @@ a {
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        background-color: #000;
         height: 2rem;
     }
     .icon-item-informativo {
@@ -4368,9 +4343,6 @@ a {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-    }
-    .box-informativo:hover {
-        background-color: #333333;
     }
     /*information*/
     .information-shop {
@@ -4968,7 +4940,6 @@ a {
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        background-color: #000;
         height: 2rem;
     }
     .icon-item-informativo {
@@ -5004,9 +4975,6 @@ a {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-    }
-    .box-informativo:hover {
-        background-color: #333333;
     }
     /*information*/
     .information-shop {
@@ -5522,7 +5490,6 @@ a {
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        background-color: #000;
         height: 2rem;
     }
     .icon-item-informativo {
@@ -5558,9 +5525,6 @@ a {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-    }
-    .box-informativo:hover {
-        background-color: #333333;
     }
     /*information*/
     .information-shop {
@@ -6176,7 +6140,6 @@ a {
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        background-color: #000;
         height: 4rem;
     }
     .icon-item-informativo {
@@ -6212,9 +6175,6 @@ a {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-    }
-    .box-informativo:hover {
-        background-color: #333333;
     }
     /*information*/
     .information-shop {
@@ -6840,7 +6800,6 @@ a {
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        background-color: #000;
         height: 4rem;
     }
     .icon-item-informativo {
@@ -6876,9 +6835,6 @@ a {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-    }
-    .box-informativo:hover {
-        background-color: #333333;
     }
     /*information*/
     .information-shop {
@@ -7402,7 +7358,6 @@ a {
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        background-color: #000;
         height: 6rem;
     }
     .icon-item-informativo {
@@ -7438,9 +7393,6 @@ a {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-    }
-    .box-informativo:hover {
-        background-color: #333333;
     }
     /*information*/
     .information-shop {
@@ -7848,3 +7800,7 @@ a {
         color: #000;
     }
 }
+
+color: #507435;
+border: 1.5px solid #507435;
+background-color: transparent;
