@@ -1,0 +1,63 @@
+favicon {
+    width: 32px;
+    height: 32px;
+}
+
+body{
+	line-height: 1.5;
+	font-family: 'thesans-b2-extralight', sans-serif;
+	overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}        
+        
+        /*slide-featured*/
+        .slide__featured{
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-decoration: none;
+            text-align: center;
+        }
+        
+        
+        .slide__featured h2{
+            font-size: 1.8rem;
+            font-weight: 530;
+            letter-spacing: 0rem;
+            font-style: italic;
+            color: #fff;
+            text-transform: uppercase;
+            margin-top: 7%;
+        }
+        
+        .slide__featured p{
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: 400;
+            font-style: italic;
+            letter-spacing: 0.1rem;
+            position: relative;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        
+        .slide__featured a{
+            text-align: center;
+            font-size: 0.75rem;
+            font-weight: 400;
+            margin-left: 35%;
+            margin-right: 35%;
+            margin-bottom: 110px;
+        }
+        
+        .img__slide__featured{
+            position: absolute;
+            width: 88%;
+            z-index: -10;
+        }

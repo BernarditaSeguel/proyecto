@@ -1,0 +1,46 @@
+/* Variables */
+
+$color-principal: #507435
+$color-texto: #000
+$color-boton: #507435
+
+$tamaño-texto: 0.75rem
+$color-titulo: #000
+$color-enlace: #507435
+
+$tamaños-fuentes:(
+ parrafos: 0.75rem,
+ titulos: 1.2rem,
+ subtitulos: 1rem,
+)
+
+@mixin flexbox ($direction, $justify, $wrap){
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: center;
+}
+
+$max-width: 100%
+
+/*LISTAS*/
+$colores:
+/*1*/ #507435,
+/*2*/ #415035,
+/*3*/ #000,
+/*4*/ #cccccc,
+
+/*MAPS*/
+$coloresMaps:(
+    /* key: value */
+    principal:
+    color-texto: #000,
+    color-botones: #507435,
+);
+
+$anchos:(
+    total: 100%,
+    mitad: 50%,
+    cuarto: 25%,
+)

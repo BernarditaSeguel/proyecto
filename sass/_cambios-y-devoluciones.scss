@@ -1,0 +1,68 @@
+favicon {
+    width: 32px;
+    height: 32px;
+}
+
+body{
+	line-height: 1.5;
+	font-family: 'thesans-b2-extralight', sans-serif;
+	overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+/*returns-and-exchanges*/
+.returns-and-exchanges{
+    width: 80%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.returns-and-exchanges h2{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 550;
+    letter-spacing: 0.1rem;
+    color: #000;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.returns-and-exchanges p{
+    text-align: justify;
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.returns-and-exchanges-item{
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.returns-and-exchanges-item h3{
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 550;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.returns-and-exchanges-item p{
+    text-align: justify;
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    color: #000;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,103 @@
+favicon {
+    width: 32px;
+    height: 32px;
+}
+
+body{
+	line-height: 1.5;
+	font-family: 'thesans-b2-extralight', sans-serif;
+	overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+/*Galeria*/
+        .gallery-blog{
+            background-color: #fff;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .gallery-blog h2{
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.6rem;
+            font-weight: 550;
+        }
+        
+        
+        .blog{
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .box-blog{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .card-gallery-blog{
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            align-items: center;
+            padding: 10px;
+        }
+        
+        .img-card-gallery-blog{
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            align-items: center;
+        }
+        
+        .img-card-gallery-blog img{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: justify;
+            margin-bottom: 1rem;
+        }
+        
+        .text-card-gallery-blog{
+            flex-direction: column;
+            justify-content: start;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px 12px;
+        }
+        
+        .text-card-gallery-blog h2{    
+            font-size: 1.2rem;
+            font-weight: 550;
+            margin-bottom: 0.5rem;
+            text-align: start;
+        }
+        
+        .text-card-gallery-blog h5{
+            font-size: 0.9rem;
+            font-weight: 300;
+            margin-bottom: 0.5rem;
+            text-align: start;
+        }
+        
+        .text-card-gallery-blog p{
+            font-size: 1rem;
+            font-weight: 300;
+            margin-bottom: 0.5rem;
+            text-align: start;
+        }

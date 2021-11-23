@@ -1,0 +1,331 @@
+header{
+    background-color: $color-principal;
+    width: $max-width;
+
+    nav{
+        display: flex;
+        @include cuadrado(100%, 30%);
+
+        ul{
+            @extend %flexbosRow;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+
+            li{
+                a{
+                    color:$color-texto;
+
+                    &:hover{
+                        color: lighten($color-texto, 30%)
+                    }
+                }
+            }
+        }
+    }
+}
+
+.cuadrado{
+    @include cuadrado (20,20);
+    background-color: nth($colores, 2 );
+    color: nth($colores, 4 );
+}
+
+.circulo{
+    background-color: map-get($coloresMaps, principal);
+    color: map-get($coloresMaps, color-texto);
+}
+
+favicon {
+    width: 32px;
+    height: 32px;
+}
+
+body{
+	line-height: 1.5;
+	font-family: 'thesans-b2-extralight', sans-serif;
+	overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+:before,:after{
+	box-sizing: border-box;
+}
+
+.container{
+	width: 90%;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.v-center{
+	align-items: center;
+}
+
+ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.boton {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 10px;
+    align-items: center;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 400;
+  }
+                                      
+  .verde {
+    color: #fff;
+    background-color: #507435;
+  }
+                                      
+  .verde:hover {
+    color: #507435;
+    border: 1.5px solid #507435;
+    background-color: transparent;
+  }
+
+  .negro {
+    color: #000;
+    border: 1.5px solid #000;
+    background-color: transparent;
+  }
+                                      
+  .negro:hover {
+    color: #fff;
+    background-color: #000;
+  }
+
+  .blanco {
+    color: #FFF;
+    border: 1.5px solid #FFF;
+    background-color: transparent;
+  }
+                                      
+  .blanco:hover {
+    color: #fff;
+    background-color: #000;
+    border: 1.5px solid #000;
+  }
+
+/* header */
+.header{
+	display: block;
+	width: 100%;
+	position: relative;
+	z-index: 99;
+	margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.header .item-left{
+	flex:0 0 17%;
+}
+.header .logo a{
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header .logo img{
+    width: 90px;
+}
+
+.header .item-center{
+	flex:0 0 66%;
+}
+.header .item-right{
+	flex:0 0 17%;
+	display: flex;
+	justify-content: flex-end;
+}
+.header .item-right a{ 
+     text-decoration: none;
+     color:#000;
+     display: inline-block;
+     margin-left: 10px;
+     transition: color 0.3s ease;
+}
+.header .menu > ul > li{
+	display: inline-block;
+	line-height: 50px;
+	margin-left: 25px;
+}
+.header .menu > ul > li > a{
+    font-size: 1rem;
+    font-weight: 400;
+	text-transform: capitalize;
+	color: #000;
+	position: relative;
+	text-transform: capitalize;
+	transition: color 0.3s ease;
+}
+.header .menu > ul > li .sub-menu{
+	position: absolute;
+	z-index: 500;
+	background-color:#ffffff;
+	padding: 20px 30px;
+	transition: all 0.5s ease;
+	margin-top:25px;
+	opacity:0;
+	visibility: hidden;
+}
+
+.header .menu > ul > li.menu-item-has-children:hover .sub-menu{
+	margin-top: 0;
+	visibility: visible;
+	opacity: 1;
+}
+
+.header .menu > ul > li .sub-menu > ul > li{
+	line-height: 1;
+}
+.header .menu > ul > li .sub-menu > ul > li > a{
+	display: inline-block;
+	padding: 10px 0;
+    font-size: 0.9rem;
+    font-weight: 430;
+	color: #000;
+	transition: color 0.3s ease;
+	text-decoration: none;
+}
+.header .menu > ul > li .single-column-menu{
+	min-width: 280px;
+	max-width: 350px;
+}
+.header .menu > ul > li .sub-menu.mega-menu > .list-item > ul > li{
+   line-height: 1;
+   display: block; 
+}
+.header .menu > ul > li .sub-menu.mega-menu > .list-item > ul > li > a {
+	padding:10px 0;
+	display: inline-block;
+	padding: 10px 0;
+    font-size: 0.9rem;
+    font-weight: 430;
+	color: #000;
+	transition: color 0.3s ease;
+}
+.header .menu > ul > li .sub-menu.mega-menu{ 
+    left: 50%;
+    transform: translateX(-50%);	
+}
+
+.header .menu > ul > li .sub-menu.mega-menu-column-4{
+  max-width: 1100px;
+  width: 100%; 	
+  display: flex;
+  flex-wrap: wrap;
+  padding:20px 15px;
+}
+.header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-item{
+  flex:0 0 25%;
+  padding:0 15px;
+}
+.header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-item .title{
+    font-size: 1rem;
+    font-weight: 550;
+	text-transform: capitalize;
+	letter-spacing: 0;
+	color:#000;
+	line-height: 1;
+	padding:10px 0;
+}
+.header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-item.text-center .title{
+	text-align: justify;
+}
+.header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-item img{
+	max-width: 100%;
+	width: 100%;
+	vertical-align: middle;
+	margin-top: 10px;
+}
+
+.header .menu > ul > li .sub-menu.mega-menu > .list-item > ul > li > a:hover,
+.header .menu > ul > li .sub-menu > ul > li > a:hover,
+.header .item-right a:hover,
+.header .menu > ul > li:hover > a{
+	color:#c4b0ff;
+}
+
+.mobile-menu-head,
+.mobile-menu-trigger{
+      display: none;
+}
+
+/*text-informativo*/
+.box-informativo{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+	background-color: #000;
+	height: 2rem;
+}
+
+.icon-item-informativo {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between; 
+    width: 8%;
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+.icon-item-informativo img{
+    margin-top: 8px;
+    width: 15px;
+}
+
+.text-item-informativo{
+    width: 95%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-item-informativo a{
+	text-decoration: none;
+    color: #fff;
+}
+.text-item-informativo h5{ 
+	font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+	margin-top: 3px;
+    text-transform: uppercase;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box-informativo:hover{
+	background-color: #333333;
+}

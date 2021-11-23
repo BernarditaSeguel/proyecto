@@ -607,6 +607,304 @@ a{
         }
 
 
+        /*slide-featured*/
+.slide__featured{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.slide__featured h2{
+    font-size: 1.8rem;
+    font-weight: 530;
+    letter-spacing: 0rem;
+    font-style: italic;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 7%;
+}
+
+.slide__featured p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+    position: relative;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.slide__featured a{
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 110px;
+}
+
+.img__slide__featured{
+    position: absolute;
+    width: 88%;
+    z-index: -10;
+}
+
+/*Video-promotional*/
+.video__promotional{
+    text-align: center;
+    align-items: center;
+}
+
+.video{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 88%;
+}
+
+/*Shipping*/
+.shipping{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.information-shipping-times{
+    width: 80%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shipping h2{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 550;
+    letter-spacing: 0.1rem;
+    color: #000;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.information-shipping-times p{
+    text-align: justify;
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    color: #000;
+    margin-bottom: 10px;
+}
+/*FAQ*/
+.frequently-asked-questions{
+    width: 80%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frequently-asked-questions h2{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 550;
+    letter-spacing: 0.1rem;
+    color: #000;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.frequently-asked-questions p{
+    text-align: justify;
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.frequently-asked-questions-item{
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frequently-asked-questions-item h3{
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 550;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.frequently-asked-questions-item p{
+    text-align: justify;
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+/*returns-and-exchanges*/
+.returns-and-exchanges{
+    width: 80%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.returns-and-exchanges h2{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 550;
+    letter-spacing: 0.1rem;
+    color: #000;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.returns-and-exchanges p{
+    text-align: justify;
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.returns-and-exchanges-item{
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.returns-and-exchanges-item h3{
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 550;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.returns-and-exchanges-item p{
+    text-align: justify;
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+/*Contact*/
+.contact{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact h2{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 550;
+    letter-spacing: 0.1rem;
+    color: #000;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.contact p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    color: #000;
+    margin-bottom: 40px;
+}
+.contact-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-item-name-mail{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.contact-item-phone{
+    margin-bottom: 20px;
+}
+
+.contact-item-message{
+    margin-bottom: 20px;
+}
+
+.contact-item-name-mail .name{
+    text-decoration: none;
+    padding: 10px 32px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    background-color: transparent;
+    border: 0.5px solid #ccc;
+}
+
+.contact-item-name-mail .email{
+    text-decoration: none;
+    padding: 10px 32px;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 300;
+    background-color: transparent;
+    border: 0.5px solid #ccc;
+}
+.contact-item-phone .phone{
+    text-decoration: none;
+    padding: 10px 150px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    background-color: transparent;
+    border: 0.5px solid #ccc;
+}
+.contact-item-message .message{
+    padding: 10px 130px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    background-color: transparent;
+    border: 0.5px solid #ccc;
+}
+.contact-item-sumit .submit-contact{
+    text-decoration: none;
+    padding: 10px 30px;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 300;
+    background-color: transparent;
+    border: 0.5px solid #000;
+}
+
+.contact-item-sumit .submit-contact:hover{
+    color: #fff;
+    background-color: #000;
+    border: 0.5px solid #000;
+}
+
 /*newsletter*/
 .footer{
     margin-top: 40px;
@@ -4412,6 +4710,107 @@ a{
                 text-align: start;
             }   
 
+            .contact{
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                width:90%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .contact h2{
+                text-align: center;
+                font-size: 1.4rem;
+                font-weight: 550;
+                letter-spacing: 0.1rem;
+                color: #000;
+                margin-bottom: 40px;
+                margin-top: 40px;
+            }
+            
+            .contact p{
+                text-align: center;
+                font-size: 1rem;
+                font-weight: 300;
+                letter-spacing: 0.1rem;
+                color: #000;
+                margin-bottom: 40px;
+            }
+            .contact-item{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .contact-item-name-mail{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                margin-bottom: 20px;
+            }
+            
+            .contact-item-phone{
+                margin-bottom: 20px;
+            }
+            
+            .contact-item-message{
+                margin-bottom: 20px;
+            }
+            
+            .contact-item-name-mail .name{
+                text-decoration: none;
+                text-align: center;
+                padding: 10px 3px;
+                font-size: 0.9rem;
+                font-weight: 300;
+                background-color: transparent;
+                border: 0.5px solid #ccc;
+            }
+            
+            .contact-item-name-mail .email{
+                text-decoration: none;
+                padding: 10px 3px;
+                text-align: center;
+                font-size: 0.9rem;
+                font-weight: 300;
+                background-color: transparent;
+                border: 0.5px solid #ccc;
+            }
+            .contact-item-phone .phone{
+                text-decoration: none;
+                padding: 10px 88px;
+                font-size: 0.9rem;
+                font-weight: 300;
+                background-color: transparent;
+                border: 0.5px solid #ccc;
+            }
+            .contact-item-message .message{
+                padding: 10px 70px;
+                font-size: 0.9rem;
+                font-weight: 300;
+                background-color: transparent;
+                border: 0.5px solid #ccc;
+            }
+            .contact-item-sumit .submit-contact{
+                text-decoration: none;
+                padding: 10px 30px;
+                align-items: center;
+                font-size: 0.9rem;
+                font-weight: 300;
+                background-color: transparent;
+                border: 0.5px solid #000;
+            }
+            
+            .contact-item-sumit .submit-contact:hover{
+                color: #fff;
+                background-color: #000;
+                border: 0.5px solid #000;
+            }
 
     /*newsletter*/
     .footer{
@@ -4858,6 +5257,117 @@ a{
                 text-align: start;
             }  
 
+            .contact{
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                width:80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .contact h2{
+                text-align: center;
+                font-size: 1.4rem;
+                font-weight: 550;
+                letter-spacing: 0.1rem;
+                color: #000;
+                margin-bottom: 40px;
+                margin-top: 40px;
+            }
+            
+            .contact p{
+                text-align: center;
+                font-size: 1rem;
+                font-weight: 300;
+                letter-spacing: 0.1rem;
+                color: #000;
+                margin-bottom: 40px;
+            }
+
+            .contact-item{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .contact-item-name-mail{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                margin-bottom: 20px;
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .contact-item-phone{
+                margin-bottom: 20px;
+                width: 95%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .contact-item-message{
+                margin-bottom: 20px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .contact-item-name-mail .name{
+                text-decoration: none;
+                text-align: center;
+                padding: 10px 1px;
+                font-size: 0.9rem;
+                font-weight: 300;
+                background-color: transparent;
+                border: 0.5px solid #ccc;
+                margin-bottom: 20px;
+            }
+            
+            .contact-item-name-mail .email{
+                text-decoration: none;
+                padding: 10px 1px;
+                text-align: center;
+                font-size: 0.9rem;
+                font-weight: 300;
+                background-color: transparent;
+                border: 0.5px solid #ccc;
+            }
+            .contact-item-phone .phone{
+                text-decoration: none;
+                padding: 10px 20px;
+                font-size: 0.9rem;
+                font-weight: 300;
+                background-color: transparent;
+                border: 0.5px solid #ccc;
+            }
+            .contact-item-message .message{
+                padding: 10px;
+                font-size: 0.9rem;
+                font-weight: 300;
+                background-color: transparent;
+                border: 0.5px solid #ccc;
+            }
+            .contact-item-sumit .submit-contact{
+                text-decoration: none;
+                padding: 10px 30px;
+                align-items: center;
+                font-size: 0.9rem;
+                font-weight: 300;
+                background-color: transparent;
+                border: 0.5px solid #000;
+            }
+            
+            .contact-item-sumit .submit-contact:hover{
+                color: #fff;
+                background-color: #000;
+                border: 0.5px solid #000;
+            }
 
     /*newsletter*/
     .footer{
