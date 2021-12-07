@@ -1415,7 +1415,7 @@
         margin-right: auto;
         align-items: center;
         justify-content: space-between;
-        width: 100%;
+        width: 90%;
     }
     /*Shipping*/
     
@@ -5212,6 +5212,15 @@
             font-size: 0.5rem;
             font-weight: 400;
             text-align: justify;
+        }
+        .information-shop-maps {
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
         }
         /*Shop*/
         .shop {
